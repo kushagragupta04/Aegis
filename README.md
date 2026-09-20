@@ -1,6 +1,6 @@
-# SafeTraiL 
+# Aegis
 
-SafeTraiL is a premium, real-time emergency response platform designed to bridge the gap between victims, their personal guardians, and professional emergency services. With high-fidelity maps, real-time location tracking, and automated alerting, SafeTraiL ensures that help is never more than a heartbeat away.
+Aegis is a premium, real-time emergency response platform designed to bridge the gap between victims, their personal guardians, and professional emergency services. With high-fidelity maps, real-time location tracking, and automated alerting, Aegis ensures that help is never more than a heartbeat away.
 
 ---
  
@@ -33,7 +33,7 @@ SafeTraiL is a premium, real-time emergency response platform designed to bridge
 ##  Project Structure
 
 ```bash
-SafeTraiL/
+Aegis/
 ├── client/                 # React Frontend (Vite)
 │   ├── src/
 │   │   ├── api/            # API Service Layer
@@ -69,7 +69,7 @@ SafeTraiL/
 
 ##  Architecture
 
-SafeTraiL follows a **Distributed Event-Driven Architecture**. Real-time location streams are handled via Socket.io for immediate UI updates, while mission-critical alerts are processed through persistent Redis queues to ensure reliability even under heavy load.
+Aegis follows a **Distributed Event-Driven Architecture**. Real-time location streams are handled via Socket.io for immediate UI updates, while mission-critical alerts are processed through persistent Redis queues to ensure reliability even under heavy load.
 
 ### System Architecture
 ![System Architecture](assets/7.png)
@@ -160,7 +160,7 @@ PORT=3000
 NODE_ENV=development
 
 # Database
-DATABASE_URL=postgres://user:pass@localhost:5432/safetrail
+DATABASE_URL=postgres://user:pass@localhost:5432/aegis
 
 # Caching & Queues
 REDIS_URL=redis://localhost:6379
@@ -212,4 +212,3 @@ The application will be accessible at `http://localhost:5173`.
    ![Map](assets/5.png)
 6. 
    ![Sequence](assets/6.png)
-
