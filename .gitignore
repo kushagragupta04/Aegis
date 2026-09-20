@@ -1,0 +1,16 @@
+node_modules/
+.env
+dist/
+coverage/
+*.log
+.DS_Store
+uploads/
+*.webm
+*.ogg
+.claude
+infra/.terraform/
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/tfplan*
+infra/terraform.tfvars
+infra/.terraform.lock.hcl
